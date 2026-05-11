@@ -1370,18 +1370,6 @@ function Dashboard({
     </div>
   );
 }
-const DC = [
-  "#7ee8a2",
-  "#70b8f0",
-  "#f0c070",
-  "#f07070",
-  "#b070f0",
-  "#70e0d0",
-  "#f070b0",
-  "#f09070",
-  "#a0d870",
-  "#f0a040",
-];
 
 // ─── ENTRIES ──────────────────────────────────────────────────────────────────
 function Entries({ data, token, mk, allEntries, apiCall }) {
