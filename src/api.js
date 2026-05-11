@@ -2,7 +2,7 @@
 // Cliente HTTP para o backend fluxo.
 // Coloque a URL do seu backend em .env: VITE_API_URL=https://seu-backend.railway.app
 
-const BASE = import.meta.env.VITE_API_URL || "http://localhost:3001/api";
+const BASE = "https://monitoramento-financeiro-production-8bca.up.railway.app/api";
 
 async function req(method, path, body, token) {
   const headers = { "Content-Type": "application/json" };
